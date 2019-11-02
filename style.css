@@ -1,0 +1,95 @@
+.navbar {
+    background: #e6e6e6;
+}
+#namebox {
+    background:#e6e6e6;
+    width: 200px;
+    float: left;
+    color: #b01023;
+    text-align: center;
+    padding: 25px;
+    letter-spacing: 1px;
+    border: .5px solid #b01023;
+}
+nav {
+    list-style-type: none;
+
+}
+a {
+    display: inline;
+    font-size: 17px;
+    color: #838080;
+    padding-top: 40px;
+    float: right;
+    margin-left: 63px;
+    letter-spacing: .5px;
+
+}
+.linktext:hover {
+    color: #b01023;
+    
+}
+.container {
+    height: 71px;
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.shadow{
+    border-top: 2px solid #b01023;
+    overflow: auto;
+    clear: both;
+    margin-bottom: 35px;
+}
+body {
+    background: url(https://i.pinimg.com/736x/95/2b/fc/952bfc938dfaa98109ddf87960c6bf62.jpg);
+    font-family: 'Marck Script', cursive;
+    margin: auto;
+}
+.textbox1 {
+    margin-left: 180px;
+    width: 900px;
+    background-color: #e6e6e6;
+    padding: 20px;
+    padding-top: 40px;
+
+}
+h2 {
+   color: #b01023;
+}
+p {
+    color: #5e5a5a;
+    display: inline;
+    font-size: 20px;
+    line-height: 40px;
+    
+}
+.bio {
+    padding: 15px;
+}
+.imgbox {
+    
+    margin-top: 10px;
+    float: left;
+    margin-right: 25px;
+    border: .5px solid #b01023
+}
+footer {
+    outline: 2px solid #b01023;
+}
+.form {
+    margin-top: 25px;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #b01023;
+    margin: 15px;
+    float: left;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue; 
+      background-image: none;
+    }
+  }
