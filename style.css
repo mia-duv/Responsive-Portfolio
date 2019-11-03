@@ -10,7 +10,9 @@
     padding: 25px;
     letter-spacing: 1px;
     border: .5px solid #b01023;
+    
 }
+.short-text { display: none; }
 nav {
     list-style-type: none;
 
@@ -87,9 +89,92 @@ footer {
     margin: 15px;
     float: left;
 }
-@media only screen and (max-width: 600px) {
+@media (max-width: 900px) {
     body {
-      background-color: lightblue; 
+      background-color: rgb(184, 121, 119); 
       background-image: none;
     }
+    .navbar {
+        background: #e6e6e6;
+    }
+    #namebox {
+        background:#e6e6e6;
+        color: #b01023;
+        text-align: center;
+        padding: 25px;
+        letter-spacing: 1px;
+        border: .5px solid #b01023;
+        width: auto;
+    }
+    .short-text { 
+        display: inline-block; 
+    }
+    .long-text { 
+        display: none; 
+    }
+    nav {
+        list-style-type: none;
+    }
+    a {
+        display: inline;
+        font-size: 17px;
+        color: #838080;
+        padding-top: 40px;
+        float: left;
+        margin-left: 18px;
+        letter-spacing: .5px;
+    
+    }
+    .linktext:hover {
+        color: #b01023;
+        
+    }
+    .container {
+        
+        width: auto;
+    }
+    .shadow{
+        border-top: 2px solid #b01023;
+        overflow: auto;
+        clear: both;
+        margin-bottom: 35px;
+    }
+    .textbox1 {
+        width: auto;
+        margin:auto;
+        padding: 10px;
+    
+    }
+    h2 {
+        color: #b01023;
+     }
+     p {
+         color: #5e5a5a;
+         font-size: 18px;
+         line-height: 35px;
+         
+     }
+     .bio {
+         padding: 0px;
+     }
+     .imgbox {
+         
+         margin-top: 10px;
+         float: left;
+         margin-right: 25px;
+         border: .5px solid #b01023
+     }
+     footer {
+         outline: 2px solid #b01023;
+     }
+     .form {
+         margin-top: 25px;
+     }
+     .box {
+         width: 200px;
+         height: 200px;
+         background-color: #b01023;
+         margin: 15px;
+         float: left;
+     }
   }
